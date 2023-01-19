@@ -1,0 +1,63 @@
+
+A web app for Local business Uniqrete limited is a family run business based in Ireland.
+
+The focus of the company are decorative concrete products, offering unique creations in a variety of colours and customised styles. Its versatility brings inspired designs to life in residential, commercial and industrial settings.
+
+The company has website that is built on Wordpress and is outdated and not responsive. The website is not mobile friendly and the design is not modern. The website is not SEO friendly. The company wants to build a new website that is modern, responsive, SEO friendly and easy to use.
+
+The website will be built on Django and Tailwind CSS, I will be using PostgreSQL for the database. The Website will be hosted on a Linux server with Nginx and Gunicorn for production.
+
+
+Ux
+
+Target Audience
+The target audience for this website is business owners, homeowners, architects, interior designers, and anyone who is interested in decorative concrete products.
+
+User Goals
+The main goal of the user is to find out more about the company and the products and services they offer. The user wants to see the company's previous work and projects and get a quote for their project.
+
+Business Goals
+The main goal of the business is to display the company's products and services and get more customers. The business wants to display the company's previous work and projects and get more customers to contact them for a quote.
+
+
+User Stories
+As a user I want to be able to:
+* Know what the company does and what they offer and how they do it.
+* See the products and services they offer in a clear way.
+* See the product/service details and get more information about it.
+* Learn more about the company's history and how they started.
+* Get to know the company better and see their previous work and projects.
+* See the company's location and their work coverage areas and how to contact them.
+* Contact the company if I have any questions or want to get a quote.
+* See the company's social media links to connect with them if I want to.
+
+As a company I want to be able to:
+* Display range of products and services that the company offers.
+* Display product/service detailed information with images.
+* Display the company's history and previous work and projects.
+* Display different awards and certifications that the company has.
+* Display the company's location and work coverage areas.
+* Provide a way for the customers to contact the company and get a quote.
+* Provide a way for the customers to connect with the company on social media.
+* QNA section for the customers to get answers to their questions.
+
+
+
+Roadmap
+- [*] Vision, Ideas and Goals
+- [*] User Stories
+- [] Wireframes
+- [] Database Design
+- [] Django Setup and Models
+- [] Build out the rest of the site
+  - [] Home Page
+  - [] About Page
+  - [] Contact Page
+  - [] Products Page
+  - [] Product Detail Page
+- [] Deploy to production linux server
+  - [] Django setup for production
+  - [] Gunicorn and Nginx setup
+  - [] Domain name setup and SSL certificate
+  - [] Sitemap and robots.txt
+  - [] Basic SEO
