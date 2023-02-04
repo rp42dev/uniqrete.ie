@@ -2,11 +2,6 @@
 
 <div align="center">
 
-
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
   <h3 align="center">Uniqrete.ie</h3>
 
   <p align="center">
@@ -16,7 +11,7 @@
 
     The company has website that is built on Wordpress and is outdated and not responsive. The website is not mobile friendly and the design is not modern. The website is not SEO friendly. The company wants to build a new website that is modern, responsive, SEO friendly and easy to use.
     
-    The website will be built on Django and Tailwind CSS, I will be using PostgreSQL for the database. The Website will be hosted on a Linux server with Nginx and Gunicorn for production.
+    The website will be built on Django, I will be using PostgreSQL for the database. The Website will be hosted on a Linux server with Nginx and Gunicorn for production.
    </p>
 
 </div>
@@ -110,12 +105,76 @@ The main goal of the business is to display the company's products and services 
 * QNA page with QNA section for the customers to get answers to their questions
 
 ##### Structure
-* Home Page
-* About Page
-* Contact Page
-* Products Page
-* Product Detail Page
+- Header:
+  - Include the company logo
+  - A navigation bar with links to the main pages
+  - Clear call to action (e.g. "Get in Touch", "Learn More")
 
+- Footer:
+  - Include company contact information
+  - Include social media links
+  - links to privacy policy and terms and conditions
+
+* Home Page
+  - Hero Section:
+    - The main focal point of the page with a clear call to action
+    - Clearly communicate the company's value proposition
+    - Brief overview of services/tagline/headline highlighting benefits offered
+  - Features and Benefits:
+    - Highlight key features of services
+    - Highlight benefits to potential clients
+    - Use bullet points, images, short descriptions
+  - Recent Projects:
+    - Showcase previous successful projects
+    - Include images and links to project details
+  - Call to Action:
+    - Clear and prominent action (e.g. "Get a Quote", "Book a Consultation")
+
+* About Page  
+    - Effectively communicate the company's mission, values, and expertise
+  - Introduction:
+    - Brief overview of company name, services, and location
+  - Mission Statement:
+    - Clearly state the company's mission, values, and purpose
+  - Expertise:
+    - Highlight the company's areas of expertise
+  - Team:
+    - Introduce key team members and their roles within the company
+  - Testimonials if applicable:
+    - Include testimonials from past clients to show the level of customer satisfaction
+  - Contact Information:
+    - Provide a clear and easy-to-find contact info (e.g. email, phone number)
+
+* Contact Page
+ - Introduction:
+    - Brief overview of the company and services offered
+  - Contact Form:
+    - Essential component of contact page
+    - Allow visitors to easily get in touch
+    - Include fields for visitor's name, email, message
+  - Contact Information:
+    - Prominently display the company's address, phone number, email
+  - Social Media:
+    - Include links to the company's social media profiles
+  - Map:
+    - Location information or map to help find the company easily
+
+* Products Page
+  - Products Gallery:
+    - Display the company's products and services in a gallery
+    - Link each product/service to the product/service detail page
+
+* Product Detail Page
+  - Product Information:
+    - Display the product/service information and images
+  - Call to Action:
+    - Clear and prominent action (e.g. "Get a Quote", "Book a Consultation")
+
+* QNA Page
+  - QNA Section:
+    - Display the QNA section for the customers to get answers to their questions
+  - Call to Action:
+    - Clear and prominent action (e.g. "Get a Quote", "Book a Consultation")
 
 
 ##### Wireframes
@@ -127,11 +186,11 @@ The main goal of the business is to display the company's products and services 
 ## Roadmap
 
 - [] UX
-  - [] Define the problem
-  - [] Target Audience
-  - [] User Goals
-  - [] Business Goals
-  - [] User Stories
+  - [x] Define the problem
+  - [x] Target Audience
+  - [x] User Goals
+  - [x] Business Goals
+  - [x] User Stories
 - [] Design
   - [] Ideas, Sketches and Wireframes
 - [] Database Design
@@ -147,9 +206,7 @@ The main goal of the business is to display the company's products and services 
   - [] Gunicorn and Nginx setup
   - [] Domain name setup and SSL certificate
   - [] Sitemap and robots.txt
-  - [] Basic SEO
-...
-
+  - [] Basic SEO setup
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -168,37 +225,3 @@ Raivis Petrovskis - [linkedin](https://www.linkedin.com/in/rp42/)
 Project Link: [Github](https://github.com/rp42dev/uniqrete.ie)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
