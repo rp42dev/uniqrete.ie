@@ -146,7 +146,7 @@ The main goal of the business is to display the company's products and services 
     - Provide a clear and easy-to-find contact info (e.g. email, phone number)
 
 * Contact Page
- - Introduction:
+  - Introduction:
     - Brief overview of the company and services offered
   - Contact Form:
     - Essential component of contact page
@@ -156,9 +156,6 @@ The main goal of the business is to display the company's products and services 
     - Prominently display the company's address, phone number, email
   - Social Media:
     - Include links to the company's social media profiles
-  - Map:
-    - Location information or map to help find the company easily
-
 * Products Page
   - Products Gallery:
     - Display the company's products and services in a gallery
@@ -177,7 +174,8 @@ The main goal of the business is to display the company's products and services 
     - Clear and prominent action (e.g. "Get a Quote", "Book a Consultation")
 
 
-##### Wireframes
+#### ![Wireframes and Mockups](wireframes/wireframes.png)
+
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
